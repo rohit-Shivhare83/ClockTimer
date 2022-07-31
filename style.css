@@ -1,0 +1,47 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#container {
+  margin: 5rem;
+  padding: 5rem 10rem;
+  background-color: antiquewhite;
+  border-radius: 6rem;
+}
+.digit {
+  font-size: 5rem;
+  font-weight: bold;
+  color: rgb(30, 46, 60);
+}
+#time {
+  text-align: center;
+}
+#btn-container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-wrap: wrap;
+}
+.btn {
+  margin: 1rem;
+  padding: 0.8rem 2rem;
+  border-radius: 15rem;
+  color: aliceblue;
+  border: none;
+}
+.txt {
+  margin-right: 0.5rem;
+  font-weight: bold;
+}
+#start {
+  background-color: rgb(61, 61, 230);
+}
+#stop {
+  background-color: rgb(71, 125, 129);
+}
+#reset {
+  background-color: rgb(200, 13, 69);
+}
